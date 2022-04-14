@@ -2,7 +2,11 @@
 title: "HelloWorld.md"
 author: "William Scully"
 date: "April 14, 2022"
-output: html_document
+output: pdf_document
 ---
 
-## This is a markdown document
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is markdown document
